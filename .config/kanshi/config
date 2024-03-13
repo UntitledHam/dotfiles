@@ -1,0 +1,7 @@
+profile laptop {
+	output eDP-1 mode 1920x1200 scale 1
+}
+profile docked {
+	output eDP-1 mode 1920x1200 position 0,0 scale 1
+	output DP-2 mode 2560x1440 position 1920,-250 scale 1
+}

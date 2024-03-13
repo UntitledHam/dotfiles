@@ -1,0 +1,30 @@
+{
+  "layer": "top",
+    "position": "top",
+    "margin-bottom": 0,
+    "height": 22,
+    "modules-left": [ 
+      "hyprland/workspaces",
+      ],
+    "modules-center": [
+      "clock",
+      ],
+    "modules-right": [
+           "tray",
+    ],
+    "tray": {
+      "icon-size": 24,
+      "spacing": 10
+    },
+    "hyprland/workspaces": {
+      "format": "{name}",
+      }
+    },
+    "clock": {
+      //"format": "<span color=\"#56b6c2\"></span> {:%H:%M}",
+      "format": "{:%H:%M}",
+      "interval": 60,
+      "tooltip": true,
+      "tooltip-format": "{:%d %B %H:%M}"
+    }
+}
