@@ -1,30 +1,74 @@
 {
-  "layer": "top",
+    "layer": "top",
     "position": "top",
-    "margin-bottom": 0,
-    "height": 22,
-    "modules-left": [ 
-      "hyprland/workspaces",
-      ],
-    "modules-center": [
-      "clock",
-      ],
-    "modules-right": [
-           "tray",
-    ],
-    "tray": {
-      "icon-size": 24,
-      "spacing": 10
+    "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["tray","pulseaudio", "battery", "clock"],
+
+    "modules": {
+      "spacing": 10,
     },
-    "hyprland/workspaces": {
-      "format": "{name}",
-      }
-    },
+
+      "hyprland/workspaces": {
+        "disable-markup": false,
+        "format": "{icon}",
+        /*"format-icons": {
+            "1": "1 <span font='Font Awesome 5 Free 11'> </span>",
+            "2": "2 <span font='Font Awesome 5 Free 11'> </span>",
+            "3": "3 <span font='Font Awesome 5 Free 11'> </span>",
+            "4": "4 <span font='Font Awesome 5 Free 11'> </span>",
+            "5": "5 <span font='Font Awesome 5 Free 11'> </span>",
+            "6": "6 <span font='Font Awesome 5 Free 11'> </span>"
+        }*/
+    }, 
     "clock": {
-      //"format": "<span color=\"#56b6c2\"></span> {:%H:%M}",
-      "format": "{:%H:%M}",
-      "interval": 60,
-      "tooltip": true,
-      "tooltip-format": "{:%d %B %H:%M}"
-    }
-}
+        "format": "{:%a %d %b - %H:%M}",
+        "on-click": "gnome-calendar"
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "separate-outputs": true
+    },
+
+    "battery": {
+        "format": "<span font='Font Awesome 5 Free 11'>{icon} </span>  {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "format-time": "{H}h{M}m",
+        "format-charging": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon} </span>  {capacity}%",
+        "format-full": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon }</span>  Charged",
+        "interval": 5,
+        "states": {
+            "warning": 25,
+            "critical": 10
+        },
+        "tooltip": true, 
+    },
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-icons": {
+                 "default": ["", "", "", ""]
+        },
+        "scroll-step": 2,
+        "on-click": "pavucontrol"
+    },
+    "backlight": {
+        "format": "{icon}",
+        "format-alt": "{percent}% {icon}",
+        "format-alt-click": "click-right",
+        "format-icons": ["", ""],
+        "on-scroll-down": "light -A 1",
+        "on-scroll-up": "light -U 1"
+       },
+    "tray": {
+        "icon-size": 22,
+	"spacing": 2,
+    },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 14,
+        "icon-theme": "Flat-Remix-Violet-Dark",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
+ }  

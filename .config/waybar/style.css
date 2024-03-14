@@ -1,61 +1,129 @@
-* {
-    font-family: "JetbrainsMono Nerd Font";
-    font-size: 16px;
+*{
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.modules-left {
-	background-color: #FFC300;
-	padding: 0px 0px 0px 0px;
+#waybar {
+    font-family: "Fira Sans SemiBold";
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.8);
+
 }
 
+#window {}
 
-.modules-right {
-	background-color: #FFC300;
-	padding: 0px 5px 0px 0px;
+window#waybar {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
 }
+
+window#waybar.solo {}
+
+window#waybar.empty {}
 
 #workspaces {
-	background-color: #323232;
+    border: 2px solid lightsalmon;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0 10px 0 0;
+    color: white;
+    box-shadow: none;
 }
-#workspaces button.active {
-color: #fff;
-background: #f2a500;
-}
+
 #workspaces button {
-	padding: 0px 11px 0px 11px; 
- 	min-width: 1px;
-	/* Color of text */
-	color: #7180C2;
+    color: white;
+    padding: 2px 10px;
+    margin: 0;
 }
 
-
-#workspaces button.focused { 
-	padding: 0px 11px 0px 11px; 
-	background-color: #285577;
-	color: #fff;
+#workspaces button.visible {
+    background-color: rgba(255, 160, 122, 0.582);
 }
 
+#workspaces button.focused {}
 
-#mode { 
-	 background-color: #900000;
-	 color: #ffffff;
-         padding: 0px 5px 0px 5px;
-         border: 1px solid #2f343a;
-}
-  
-
-#clock {
-	margin: 0px 15px 0px 15px;
+#workspaces button.focused.current_output {
+    background-color: lightsalmon;
+    color: black;
 }
 
+#workspaces button.urgent {}
 
-#tray{
-   padding: 0px 8px 0px 5px;
-   margin: 0px 5px 0px 5px;
-   background: none;
+#workspaces button:hover {
+    background-color: rgba(255, 160, 122, 0.582);
+    color: white;
 }
 
+/* Repeat style here to ensure properties are overwritten as there's no !important and button:hover above resets the colour */
 
+/*
+#workspaces button.focused {
+    color: white;
+}
 
+#pulseaudio {
+    color:khaki;
+}
 
+#temperature {
+    color: lightpink;
+    margin-right: 5px;
+}
 
+#idle_inhibitor {
+    color: powderblue;
+}
+
+#language {
+    color: orchid;
+}
+
+#tray,
+#battery,
+#temperature,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#backlight,
+{
+    padding: 10;
+    right-margin: 5px;
+}
+
+#battery {
+    color: lightgreen;
+    margin-right: 5px;
+}
+
+#battery.warning {
+    color: rgba(255, 210, 4, 1);
+}
+
+#battery.critical {
+    color: rgba(238, 46, 36, 1);
+}
+
+#battery.charging {
+    color: rgba(217, 216, 216, 1);
+}
+
+#custom-storage.warning {
+    color: rgba(255, 210, 4, 1);
+}
+
+#custom-storage.critical {
+    color: rgba(238, 46, 36, 1);
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+} */
