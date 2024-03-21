@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top",
-    "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
+    "modules-left": ["hyprland/workspaces", "cpu", "memory", "temperature"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["tray","pulseaudio", "battery", "clock"],
 
@@ -28,6 +28,12 @@
     "hyprland/window": {
         "format": "{}",
         "separate-outputs": true
+    },
+    "temperature": {
+	   	"thermal-zone": 0,
+		"format": "{icon} {temperatureC}°C",
+		"format-icons":[""],
+		"interval": 30
     },
 
     "battery": {
@@ -66,9 +72,25 @@
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 14,
-        "icon-theme": "Flat-Remix-Violet-Dark",
+        "icon-theme": "Papirus",
         "tooltip-format": "{title}",
         "on-click": "activate",
         "on-click-middle": "close"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "  {usage}%", // Icon: microchip
+        "states": {
+          "warning": 70,
+          "critical": 90
+        }
+    },
+    "memory": {
+        "interval": 5,
+        "format": "󰍛  {}%", // Icon: memory
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
     },
  }  
