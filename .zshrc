@@ -41,3 +41,4 @@ cdls () {
 
 alias ls="ls -A --color=auto"
 alias please="sudo"
+alias tty-clock="tty-clock -C 6 -c"
