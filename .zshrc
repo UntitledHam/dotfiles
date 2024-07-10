@@ -39,4 +39,5 @@ cdls () {
   ls
 }
 
-alias ls="ls -a"
+alias ls="ls -A --color=auto"
+alias please="sudo"
