@@ -65,7 +65,7 @@ read -p "Would you like to install the required packages [Y/n] " prompt
 if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]] then 
   echo "Alright, skipping package installation..."
 else
-  sudo pacman -S - < pkglist.txt
+  sudo pacman -S - < $DOTFILES_DIR/InstallScript/pkglist.txt
 fi
 
 # Reboot to apply changes
