@@ -6,9 +6,9 @@
 "layer": "top",
 "position": "top",
 "height": 14,
-"margin-left": 10,
-"margin-right": 10,
-"margin-top": 2,
+"margin-left": 0,
+"margin-right": 0,
+"margin-top": 0,
 	
 "modules-left": [
 	"hyprland/workspaces",
@@ -28,6 +28,7 @@
 	"custom/separator#blank",
 	"pulseaudio",
 	"custom/separator#blank",
+  "battery",
 	"custom/power",					
 	],
 }
