@@ -15,9 +15,9 @@ echo "Starting Installation..."
 if test -f $HOME/.zshrc; then
   echo ".zshrc found, backing up..."
   mv $HOME/.zshrc $HOME/.zshrc-backup
-  echo "Copying over new .zshrc..."
-  cp $DOTFILES_DIR/.zshrc $HOME/.
 fi
+echo "Copying over new .zshrc..."
+cp $DOTFILES_DIR/.zshrc $HOME/.
 
 # Loop through contents of ~/dotfiles/.config/ 
 # If match exists in ~/.config 
@@ -29,17 +29,16 @@ for dir in $DOTFILES_DIR/.config/* ; do
   if [ -d "$dir" ] && test -d $HOME/.config/$current_dir ; then 
     echo "$current_dir is a directory and exists in .config, backing up..."
     mv $HOME/.config/$current_dir $HOME/.config/"$current_dir-backup"
-    echo "Copying over new $current_dir to .config..."
-    cp -r $DOTFILES_DIR/.config/$current_dir $HOME/.config/.
     
 
   elif [ -f "$dir" ] && test -f $HOME/.config/$current_dir ; then 
     echo "$current_dir is a file and exists in .config, backing up..."
-    mv $HOME/.config/$current_dir $HOME/.config/"$current_dir-backup"
-    cp $DOTFILES_DIR/.config/$current_dir $HOME/.config/.
   fi
   
 done
+
+echo "Copying over .config contents..."
+cp -r $DOTFILES_DIR/.config/. $HOME/.config/.
 
 echo "Installing fonts..."
 cp -r $DOTFILES_DIR/Fonts/. /usr/share/fonts/TTF/.
