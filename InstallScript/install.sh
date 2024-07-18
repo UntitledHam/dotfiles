@@ -11,7 +11,7 @@ fi
 
 echo "Starting Installation..." 
 
-# Backup .zshrc if it exists
+# Backup .zshrc if it exists and then replace it with the new .zshrc
 if test -f $HOME/.zshrc; then
   echo ".zshrc found, backing up..."
   mv $HOME/.zshrc $HOME/.zshrc-backup
@@ -19,6 +19,10 @@ if test -f $HOME/.zshrc; then
   cp $DOTFILES_DIR/.zshrc $HOME/.
 fi
 
+# Loop through contents of ~/dotfiles/.config/ 
+# If match exists in ~/.config 
+#   move dirname {direname}-backup 
+# Copy over contents of ~/dotfiles/.config/. to ~/.config/. 
 for dir in $DOTFILES_DIR/.config/* ; do
   current_dir=$(basename $dir)
 
@@ -40,6 +44,7 @@ done
 echo "Installing fonts..."
 cp -r $DOTFILES_DIR/Fonts/. /usr/share/fonts/TTF/.
 
+# If wallpaper folder is found copy new wallpapers into it instead
 if test -d $HOME/Pictures/wallpapers; then
   echo "Wallpapers folder found."
   
@@ -50,8 +55,12 @@ if test -d $HOME/Pictures/wallpapers; then
     cp -r $DOTFILES_DIR/Pictures/wallpapers/. $HOME/Pictures/wallpapers/. 
     echo "Wallpapers copied over."
   fi
+# Wallpaper folder is not found, just copy over the whole folder.
+else 
+  cp -r $DOTFILES_DIR/Pictures/wallpapers $HOME/Pictures/. 
 fi
 
+# Install the packages from pkglist.txt
 read -p "Would you like to install the required packages [Y/n] " prompt 
 if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]] then 
   echo "Alright, skipping package installation..."
@@ -59,7 +68,7 @@ else
   sudo pacman -S - < pkglist.txt
 fi
 
-
+# Reboot to apply changes
 read -p "Installation Completed, would you like to restart? [Y/n] " prompt 
 if [[ $prompt == "n" || $prompt == "N" || $prompt "no" | $prompt == "No" ]] then 
   echo "Just a warning: Not all changes will be applied until you reboot."
@@ -67,18 +76,3 @@ if [[ $prompt == "n" || $prompt == "N" || $prompt "no" | $prompt == "No" ]] then
 else 
   reboot
 fi
-
-
-
-# Copy new .zshrc over
-
-# Loop through contents of ~/dotfiles/.config/ 
-# If match exists in ~/.config 
-#   mv dirname {direname}-backup 
-# Copy over contents of ~/dotfiles/.config/. to ~/.config/. 
-
-# Repeat for Pictures/wallpapers folder
-# If wallpaper folder is found copy new wallpapees into it instead
-
-# Install packages from pkglist.txt
-# pacman -S - < pkglist.txt
