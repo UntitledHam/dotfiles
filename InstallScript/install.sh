@@ -65,6 +65,10 @@ if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]] 
   echo "Alright, skipping package installation..."
 else
   sudo pacman -S - < $DOTFILES_DIR/InstallScript/pkglist.txt
+
+  echo "Installing Oh my Zsh..."
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 fi
 
 # Reboot to apply changes
