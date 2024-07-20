@@ -41,6 +41,8 @@ echo "Copying over .config contents..."
 cp -r $DOTFILES_DIR/.config/. $HOME/.config/.
 
 echo "Installing fonts..."
+
+mkdir -p /usr/share/fonts/TTF 
 cp -r $DOTFILES_DIR/Fonts/. /usr/share/fonts/TTF/.
 
 # If wallpaper folder is found copy new wallpapers into it instead
@@ -66,14 +68,14 @@ if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]] 
 else
   sudo pacman -S - < $DOTFILES_DIR/InstallScript/pkglist.txt
 
-  echo "Installing Oh my Zsh..."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 fi
+
+echo "Switching default shell to ZSH..."
+csh -s /usr/bin/zsh 
 
 # Reboot to apply changes
 read -p "Installation Completed, would you like to restart? [Y/n] " prompt 
-if [[ $prompt == "n" || $prompt == "N" || $prompt "no" | $prompt == "No" ]] then 
+if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" | $prompt == "No" ]] ; then 
   echo "Just a warning: Not all changes will be applied until you reboot."
   exit 0
 else 
