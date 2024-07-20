@@ -75,7 +75,7 @@ csh -s /usr/bin/zsh
 
 # Reboot to apply changes
 read -p "Installation Completed, would you like to restart? [Y/n] " prompt 
-if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" | $prompt == "No" ]] ; then 
+if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]] ; then 
   echo "Just a warning: Not all changes will be applied until you reboot."
   exit 0
 else 
