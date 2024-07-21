@@ -68,6 +68,7 @@ zi snippet OMZL::vcs_info.zsh
 zi snippet OMZP::git
 zi snippet OMZP::ruby
 zi snippet OMZP::conda-env
+zi snippet OMZP::sudo
 
 
 

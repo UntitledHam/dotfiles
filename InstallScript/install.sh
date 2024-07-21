@@ -66,6 +66,22 @@ read -p "Would you like to install the required packages [Y/n] " prompt
 if [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]] then 
   echo "Alright, skipping package installation..."
 else
+  if ! command -v yay &> /dev/null
+  then
+    echo "yay not detected, installing yay..."
+    pacman -S --needed git base-devel
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+  fi
+
+  echo "Installing pacman packages..." 
+  installable_packages=$(comm -12 <(pacman -Slq | sort) <(sort $DOTFILES_DIR/InstallScript/pkglist.txt))
+  pacman -S --needed $installable_packages
+
+
+
+
   sudo pacman -S - < $DOTFILES_DIR/InstallScript/pkglist.txt
 
 fi
