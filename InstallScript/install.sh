@@ -42,11 +42,11 @@ cp -r $DOTFILES_DIR/.config/. $HOME/.config/.
 
 echo "Installing fonts..."
 
-mkdir -p /usr/share/fonts/TTF 
+sudo mkdir -p /usr/share/fonts/TTF 
 cp -r $DOTFILES_DIR/Fonts/. /usr/share/fonts/TTF/.
 
 # If wallpaper folder is found copy new wallpapers into it instead
-if test -d $HOME/Pictures/wallpapers; then
+if test -d $HOME/`Pictures/wallpapers; then
   echo "Wallpapers folder found."
   
   read -p "Would you like to copy over the included wallpapers into you wallpapers folder? [Y/n] " prompt
@@ -58,6 +58,7 @@ if test -d $HOME/Pictures/wallpapers; then
   fi
 # Wallpaper folder is not found, just copy over the whole folder.
 else 
+  mkdir $HOME/Pictures
   cp -r $DOTFILES_DIR/Pictures/wallpapers $HOME/Pictures/. 
 fi
 
@@ -69,7 +70,7 @@ else
   if ! command -v yay &> /dev/null
   then
     echo "yay not detected, installing yay..."
-    pacman -S --needed git base-devel
+    sudo pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si
@@ -77,7 +78,7 @@ else
 
   echo "Installing pacman packages..." 
   installable_packages=$(comm -12 <(pacman -Slq | sort) <(sort $DOTFILES_DIR/InstallScript/pkglist.txt))
-  pacman -S --needed $installable_packages
+  sudo pacman -S --needed $installable_packages
 
 
 
@@ -87,7 +88,7 @@ else
 fi
 
 echo "Switching default shell to ZSH..."
-csh -s /usr/bin/zsh 
+chsh -s /usr/bin/zsh 
 
 # Reboot to apply changes
 read -p "Installation Completed, would you like to restart? [Y/n] " prompt 
