@@ -8,6 +8,7 @@
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
+source ~/env_vars
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -77,3 +78,5 @@ zi cdclear -q # <- forget completions provided up to this moment
 # Prompt
 setopt promptsubst
 zinit snippet OMZT::murilasso
+
+
