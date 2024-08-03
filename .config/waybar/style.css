@@ -1,8 +1,7 @@
 @define-color critical #ff0000; /* critical color */
 @define-color warning #f3f809;  /* warning color */
 @define-color fgcolor #ffffff;  /* foreground color */
-@define-color bgcolor #303030;  /* background color */
-@define-color bgcolor #222436;  /* background color */
+@define-color bgcolor #000000;  /* background color */
 @define-color alert   #df3320;
 
 @define-color accent1 #ff7a93;
@@ -25,22 +24,28 @@ font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 window#waybar {
-    background-color: rgba(0,0,0,0.3);
+    background-color: black;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 10px;
+    border-radius: 11px;
+    border: #471d55 4px solid
 }
 
-window#waybar.hidden {
-    opacity: 0.1;
+#battery {
+  background-color: black;
+  border-top: #471d55 4px solid;
+  border-bottom: #471d55 4px solid;
 }
+
+/*window#waybar.hidden {
+    opacity: 0.1;
+}*/
 
 window#waybar.empty,
 window#waybar.empty #window {
     padding: 0px;
-    border: 0px;
-    background-color: transparent;
+    background-color: black;
 }
 
 tooltip {
@@ -95,17 +100,13 @@ tooltip {
     background-color: #eb4d4b;
 }
 
-#mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
-}
 
 #backlight,
 #backlight-slider,
-#battery,
 #bluetooth,
 #clock,
 #cpu,
+#battery,
 #disk,
 #idle_inhibitor,
 #keyboard-state,
@@ -144,6 +145,7 @@ tooltip {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
+  /*background-color: black;*/
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-right: 6px;
@@ -166,9 +168,6 @@ tooltip {
     color: #7287fd;
 }
 
-#battery {
-    color: @accent5;
-}
 
 /* #battery.charging {
     color: #ffffff;
@@ -178,12 +177,13 @@ tooltip {
 @keyframes blink {
     to {
         background-color: #ffffff;
-        color: #333333;
+        color: black;
     }
 }
 
 #battery.critical:not(.charging) {
     color: @critical;
+    background-color: black;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -252,7 +252,7 @@ label:focus {
     color: @accent5;
 }
 #custom-power_profile {
-    color: @accent3;
+    color: black;
 }
 #custom-media {
     background-color: #66cc99;
@@ -315,7 +315,7 @@ label:focus {
 }
 
 #custom-separator {
-    color: #606060;
+    color: black;
 }
 #pulseaudio-slider slider {
 	min-width: 0px;

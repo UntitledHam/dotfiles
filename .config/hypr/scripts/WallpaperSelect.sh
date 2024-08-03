@@ -89,6 +89,4 @@ fi
 main
 
 sleep 0.5
-${SCRIPTSDIR}/WallustSwww.sh
-sleep 0.2
 ${SCRIPTSDIR}/Refresh.sh
