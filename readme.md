@@ -2,7 +2,7 @@
 
 * **Compositor:** Hyprland
 * **Bar:** Waybar
-* **Application Launcher:** Rofi
+* **Application Launcher:** Tofi
 * **Terminal:** Kitty
 * **Notification Center:** Swaync
 * **Lock Screen:** Hyprlock
