@@ -29,6 +29,12 @@ cdls () {
 alias ls="ls -A --color=auto"
 alias please="sudo"
 alias tty-clock="tty-clock -C 6 -c"
+alias hx="helix"
+alias mk="musikcube"
+alias sober="flatpak run org.vinegarhq.Sober"
+alias update-river="$HOME/.config/river/init"
+
+export PATH=$PATH:~/.cargo/bin/
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -70,6 +76,8 @@ zi snippet OMZP::git
 zi snippet OMZP::ruby
 zi snippet OMZP::conda-env
 zi snippet OMZP::sudo
+
+
 
 
 

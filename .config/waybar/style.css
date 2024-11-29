@@ -176,8 +176,7 @@ tooltip {
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: black;
+        color: white;
     }
 }
 

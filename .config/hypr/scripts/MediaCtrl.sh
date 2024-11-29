@@ -38,9 +38,11 @@ show_music_notification() {
 case "$1" in
     "--nxt")
         play_next
+        show_music_notification
         ;;
     "--prv")
         play_previous
+        show_music_notification
         ;;
     "--pause")
         toggle_play_pause

@@ -221,7 +221,8 @@
 "clock#3": {
     //"format": "{:%I:%M %p - %d/%b}", //for AM/PM
     "format": "{:%H:%M - %d/%b}", // 24H
-	"tooltip": false
+	"tooltip": false,
+  "timezone": "America/NewYork/New_York"
 },
 "clock#4": {
 	"interval": 60,
