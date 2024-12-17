@@ -1,15 +1,15 @@
 @define-color critical #ff0000; /* critical color */
 @define-color warning #f3f809;  /* warning color */
-@define-color fgcolor #ffffff;  /* foreground color */
-@define-color bgcolor #000000;  /* background color */
+@define-color fgcolor @foreground;  /* foreground color */
+@define-color bgcolor @background;  /* background color */
 @define-color alert   #df3320;
 
-@define-color accent1 #ff7a93;
-@define-color accent2 #ffffff;
-@define-color accent3 #ff9e64;
-@define-color accent4 #bb9af7;
-@define-color accent5 #7da6ff;
-@define-color accent6 #0db9d7;
+@define-color accent1 @color0;
+@define-color accent2 @color1;
+@define-color accent3 @color2;
+@define-color accent4 @color3;
+@define-color accent5 @color4;
+@define-color accent6 @color5;
 
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* Translucent */
@@ -24,12 +24,12 @@ font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 window#waybar {
-    background-color: black;
-    color: #ffffff;
+    background-color: @fgcolor;
+    color: @fgcolor;
     transition-property: background-color;
     transition-duration: .5s;
     border-radius: 11px;
-    border: #471d55 4px solid
+    border: @fgcolor  4px solid
 }
 
 #battery {

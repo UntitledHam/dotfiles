@@ -33,6 +33,7 @@ alias hx="helix"
 alias mk="musikcube"
 alias sober="flatpak run org.vinegarhq.Sober"
 alias update-river="$HOME/.config/river/init"
+alias img="kitty +kitten icat"
 
 export PATH=$PATH:~/.cargo/bin/
 

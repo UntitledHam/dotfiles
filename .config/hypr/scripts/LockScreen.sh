@@ -1,5 +1,1 @@
-#!/bin/bash
-
-
-pidof hyprlock || hyprlock -q 
-
+../../../dotfiles/.config/hypr/scripts/LockScreen.sh
