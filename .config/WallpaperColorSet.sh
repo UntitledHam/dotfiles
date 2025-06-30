@@ -1,1 +1,0 @@
-hypr/scripts/WallpaperColorSet.sh

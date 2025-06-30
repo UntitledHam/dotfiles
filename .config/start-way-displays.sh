@@ -1,1 +1,0 @@
-hypr/scripts/start-way-displays.sh
