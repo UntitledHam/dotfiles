@@ -152,7 +152,7 @@
 
 	# Maximum number of results to display.
 	# If 0, tofi will draw as many results as it can fit in the window.
-	num-results = 5
+	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
 	result-spacing = 25
@@ -189,8 +189,8 @@
 	corner-radius = 0
 
 	# Padding between borders and text. Can be pixels or a percentage.
-	padding-top = 35%
-	padding-left = 35%
+	padding-top = 5%
+	padding-left = 5%
 
 	# Whether to clip text drawing to be within the specified padding. This
 	# is mostly important for allowing text to be inset from the border,

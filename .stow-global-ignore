@@ -46,3 +46,4 @@ _darcs
 /scripts
 /InstallScript
 /Fonts
+.private_zshrc

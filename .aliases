@@ -1,0 +1,106 @@
+# Kitty downloading over ssh
+alias upload="kitten transfer --direction=upload"
+alias download="kitten transfer"
+
+# Block writing.
+alias block='mesg n'
+alias unblock='mesg y'
+
+alias edit="edit-in-kitty"
+
+alias please="sudo"
+alias tty-clock="tty-clock -C 6 -c"
+alias mk="musikcube"
+alias sober="flatpak run org.vinegarhq.Sober"
+alias update-river="$HOME/.config/river/init"
+alias img="kitty +kitten icat"
+alias hx="helix"
+alias grep="grep --color"
+
+alias "pip"="uv pip"
+
+# Python venvs are annoying
+alias venv="source ./.venv/bin/activate"
+
+createvenv() {
+  mkdir .venv;
+  cd .venv;
+  python -m venv .;
+  cd ..;
+  venv;
+}
+
+alias vim="nvim"
+
+
+# Git
+yeet() {
+  git add -A;
+  git commit -m $1;
+  git push;
+}
+alias vibes="git status"
+
+
+# If eza is found, replace ls, otherwise just use standard ls.
+if command -v eza 2>&1 >/dev/null; then
+    unalias ls
+    alias ls="eza -a --icons --color=always"
+else
+    unalias ls
+    alias ls="ls -a --color=auto"
+fi
+
+
+nukedb() {
+  if ! command -v flask 2>&1 >/dev/null; then
+    echo "\033[0;31mflask not found in PATH, exiting...\033[0m"
+    return
+  fi
+  if test -d "./migrations"; then
+    echo "\033[0;31mmigrations folder found, nuking...\033[0m"
+    rm -r migrations
+  else
+    echo "\033[0;34mmigrations folder not found, skipping...\033[0m"
+  fi
+  if test -f "./app.db"; then
+    echo "\033[0;31mapp.db found, nuking...\033[0m"
+    rm app.db
+  else 
+    echo "\033[0;34mapp.db not found, skipping...\033[0m"
+  fi
+  echo "\033[0;36mRebuilding database...\033[0m"
+  flask db init && flask db migrate && flask db upgrade 
+  echo "\033[0;32mDatabase successfully rebuilt, running app...\033[0m"
+  flask run
+}
+
+
+comp() {
+    input=$1
+    edit="${input//.c/}"
+    echo "Compiled $input to $edit"
+    gcc -o $edit $input
+}
+
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+       cd -P -- "$1"
+}
+
+cdls () {
+  cd "$1" &&
+  ls
+}
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+zle -N y
+bindkey '\ej' y

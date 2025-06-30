@@ -1,20 +1,7 @@
-@define-color critical #ff0000; /* critical color */
-@define-color warning #f3f809;  /* warning color */
-@define-color fgcolor @foreground;  /* foreground color */
-@define-color bgcolor @background;  /* background color */
-@define-color alert   #df3320;
+/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
+/* Wallust - Simple */
 
-@define-color accent1 @color0;
-@define-color accent2 @color1;
-@define-color accent3 @color2;
-@define-color accent4 @color3;
-@define-color accent5 @color4;
-@define-color accent6 @color5;
-
-/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-/* Translucent */
-
-* {
+*{
 font-family: "JetBrainsMono Nerd Font";
 font-weight: bold;
 min-height: 0;
@@ -23,43 +10,62 @@ font-size: 97%;
 font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
-window#waybar {
-    background-color: @fgcolor;
-    color: @fgcolor;
-    transition-property: background-color;
-    transition-duration: .5s;
-    border-radius: 11px;
-    border: @fgcolor  4px solid
+@import 'colors.css';
+
+#waybar.empty, #waybar.tiled, #waybar.floating {
+	background-color: transparent;
 }
 
-#battery {
-  background-color: black;
-  border-top: #471d55 4px solid;
-  border-bottom: #471d55 4px solid;
-}
-
-/*window#waybar.hidden {
-    opacity: 0.1;
-}*/
-
+window#waybar,
 window#waybar.empty,
 window#waybar.empty #window {
+    background-color: transparent;
     padding: 0px;
-    background-color: black;
+    border: 0px;
 }
 
 tooltip {
-    background: #1e1e2e;
-    opacity: 0.6;
-    border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #11111b;
+	color: @color15;
+	background: @color0;
+	opacity: 0.8;
+	border-radius: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: @color15;
 }
 
+/*-----module groups----*/
+.modules-right {
+	background-color: @color0;
+	border: 0.5px solid @color15;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.modules-center {
+	background-color: @color0;
+	border: 0.5px solid @color15;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.modules-left {
+	background-color: @color0;
+	border: 0.5px solid @color15;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+/*-----modules indv----*/
+
 #workspaces button {
-    background-color: transparent;
-    color: #ffffff;
+    color: @color2;
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
@@ -70,43 +76,38 @@ tooltip {
     transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
-#taskbar button.active,
 #workspaces button.active {
-    background-color: transparent;
-    color: @accent1;
+    color: @foreground;
+    background-color: @color2;
     padding-left: 8px;
     padding-right: 8px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
-#taskbar button:hover,
+#workspaces button.focused {
+    color: @color4;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    border-radius: 10px;
+}
+
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-	color: @accent3;
+    color: @color4;
     padding-left: 2px;
     padding-right: 2px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
-#workspaces button.focused {
-    background-color: #bbccdd;
-    color: @accent2;
-    /* box-shadow: inset 0 -3px #ffffff; */
-}
-
-#workspaces button.urgent {
-    background-color: #eb4d4b;
-}
-
-
 #backlight,
 #backlight-slider,
+#battery,
 #bluetooth,
 #clock,
 #cpu,
-#battery,
 #disk,
 #idle_inhibitor,
 #keyboard-state,
@@ -117,6 +118,7 @@ tooltip {
 #power-profiles-daemon,
 #pulseaudio,
 #pulseaudio-slider,
+#taskbar button,
 #taskbar,
 #temperature,
 #tray,
@@ -124,65 +126,91 @@ tooltip {
 #wireplumber,
 #workspaces,
 #custom-backlight,
+#custom-browser,
+#custom-cava_mviz,
 #custom-cycle_wall,
-#custom-hint,
+#custom-file_manager,
+#custom-keybinds,
 #custom-keyboard,
 #custom-light_dark,
 #custom-lock,
+#custom-hint,
+#custom-hypridle,
 #custom-menu,
 #custom-power_vertical,
 #custom-power,
+#custom-settings,
+#custom-spotify,
 #custom-swaync,
+#custom-tty,
 #custom-updater,
 #custom-weather,
 #custom-weather.clearNight,
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight,
-#custom-weather.default, 
+#custom-weather.default,
 #custom-weather.rainyDay,
 #custom-weather.rainyNight,
 #custom-weather.severe,
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-  /*background-color: black;*/
+	color: @color12;
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-right: 6px;
-	padding-left: 6px;
+	padding-left: 6px;;
 }
 
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
+#mode {
+	color: #cc3436;
+	font-weight: bold;
+}
+#custom-power {
+	/*background-color: rgba(0,119,179,0.6);*/
+	/*border-radius: 50px;*/
+	padding: 1px 3px;
+}
+/*-----Indicators----*/
+#custom-hypridle.notactive,
+#idle_inhibitor.activated {
+	color: #39FF14;
 }
 
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
+#pulseaudio.muted {
+	color: #cc3436;
 }
-
-#clock {
-    color: @accent2;
+#pulseaudio-microphone.muted {
+	color: #cc3436;
 }
-
-#custom-updater {
-    color: #7287fd;
+#temperature.critical {
+    background-color: #ff0000;
 }
-
-
-/* #battery.charging {
-    color: #ffffff;
-    background-color: #26A65B;
-} */
 
 @keyframes blink {
     to {
-        color: white;
+        color: #000000;
     }
 }
 
+#taskbar button.active {
+	color: @foreground;
+    background-color: @color2;
+	border-radius: 30px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#taskbar button:hover {
+    padding-left: 3px;
+    padding-right: 3px;
+	border-radius: 15px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
 #battery.critical:not(.charging) {
-    color: @critical;
-    background-color: black;
+    color: #f53c3c;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -190,132 +218,6 @@ tooltip {
     animation-direction: alternate;
 }
 
-label:focus {
-    background-color: #000000;
-}
-
-#custom-menu{
-    color: #FFFFFF;
-    /*padding: 3px;*/
-}
-
-#custom-keyboard,
-#cpu {
-    color: @accent1;
-}
-
-#memory {
-    color: @accent3;
-}
-
-#backlight {
-    color: #cdd6f4;
-}
-
-#bluetooth {
-    color: #1e66f5;
-}
-
-#network {
-    color: @accent3;
-}
-
-#network.disconnected {
-    color: @alert;
-}
-
-#pulseaudio {
-    color: @accent4;
-}
-
-#pulseaudio-muted {
-    color: @accent2;
-}
-#wireplumber {
-    color: @accent4;
-}
-
-#wireplumber-muted {
-    color: @accent2;
-}
-
-#pluseaudio-source-muted{
-    color: #a0a0a0;
-}
-
-#custom-power {
-    color: #cc3436;
-}
-
-#disk {
-    color: @accent5;
-}
-#custom-power_profile {
-    color: black;
-}
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-weather {
-    color: #66cc99;
-}
-
-#custom-lock {
-    color: #ffa000;
-}
-
-#keyboard-state,
-#temperature {
-    color: @accent6;
-    /* background-color: #f0932b; */
-}
-
-#temperature.critical {
-    background-color: @critical;
-}
-
-#tray {
-    /* background-color: #505050; */
-}
-
-#idle_inhibitor {
-	color: #f9e2af;
-    /*background-color: #2d3436;*/
-}
-
-#idle_inhibitor.activated {
-    /*background-color: #ecf0f1;*/
-    color: #2dcc36;
-    /*color: #2d3436;*/
-}
-
-#mpd {
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
-}
-
-#custom-language {
-    color: @accent5;
-    min-width: 16px;
-}
-
-#custom-separator {
-    color: black;
-}
 #pulseaudio-slider slider {
 	min-width: 0px;
 	min-height: 0px;

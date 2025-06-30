@@ -1,0 +1,106 @@
+console_title_template = '{{ .Shell }} in {{ .Folder }}'
+version = 2
+final_space = true
+
+[palette]
+  hostname = 'green'
+  path = 'magenta'
+  cursor = 'cyan'
+  cursor_error = 'red'
+  git = 'yellow'
+  execution_time = 'yellow'
+
+  python_venv = 'magenta'
+
+[[blocks]]
+  type = 'rprompt'
+  overflow = 'hidden'
+
+
+  [[blocks.segments]]
+    type = 'executiontime'
+    style = 'plain'
+    background = 'transparent'
+    foreground = 'p:execution_time' 
+
+    [blocks.segments.properties]
+      threshold = 5000
+      style = 'austin'
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+
+  [[blocks.segments]]
+    type='python'
+    style='plain'
+    foreground='p:python_venv'
+    background = 'transparent'
+    template = '({{.Venv}}) '
+
+    [blocks.segments.properties]
+      folder_name_fallback = false
+
+  [[blocks.segments]]
+    alignment = 'left'
+    type = 'session'
+    style = 'plain'
+    foreground = 'p:hostname'
+    background = 'transparent'
+    template = "{{ .UserName }}@{{ .HostName }}:"
+
+  [[blocks.segments]]
+    type= 'path'
+    style = 'plain'
+    background = 'transparent'
+    foreground = 'p:path'
+    template = '{{ .Path }}'
+    
+    [blocks.segments.properties]
+      style = 'full'
+
+    [[blocks.segments]]
+      type = 'git'
+      style = 'plain'
+      foreground = 'p:git'
+      background = 'transparent'
+      # Add a "*" if you have unstaged changes.
+      template = ' {{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }}'
+
+      [blocks.segments.properties]
+        branch_icon = ''
+        commit_icon = '@'
+        fetch_status = true
+
+# Cursor
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = 'text'
+    style = 'plain'
+    foreground_templates = [
+      # If code > 0: make cursor the error color:
+      '{{if gt .Code 0 }}p:cursor_error{{end}}',
+      '{{if eq .Code 0 }}p:cursor{{end}}'
+    ]
+    background = 'transparent'
+    foreground = 'p:cursor'
+    template = '> '
+
+[transient_prompt]
+  foreground = 'p:cursor'
+  background = 'transparent'
+  foreground_templates = [
+    # If code > 0: make cursor the error color:
+    '{{if gt .Code 0 }}p:cursor_error{{end}}',
+    '{{if eq .Code 0 }}p:cursor{{end}}'
+  ]
+  template = '> '
+
+[secondary_prompt]
+  foreground = 'p:cursor'
+  background = 'transparent'
+  template = '>> '

@@ -1,14 +1,9 @@
 hyprland
 xdg-desktop-portal-hyprland
 waybar
-rofi
-kanshi
-swaync
 wlogout
 kitty
-dolphin
 cava
 fastfetch
 btop
 neovim
-

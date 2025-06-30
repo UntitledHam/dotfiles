@@ -1332,3 +1332,663 @@
 2024/12/09 (09:50:18) | ===> btop++ v.1.4.0
 2024/12/09 (09:50:18) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
 2024/12/09 (09:50:18) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/18 (20:05:08) | ===> btop++ v.1.4.0
+2024/12/18 (20:05:08) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/18 (20:05:08) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/19 (20:01:40) | ===> btop++ v.1.4.0
+2024/12/19 (20:01:40) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/19 (20:01:40) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/20 (01:56:16) | ===> btop++ v.1.4.0
+2024/12/20 (01:56:16) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/20 (01:56:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/21 (18:50:30) | ===> btop++ v.1.4.0
+2024/12/21 (18:50:30) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/21 (18:50:30) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/21 (19:05:27) | ===> btop++ v.1.4.0
+2024/12/21 (19:05:27) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/21 (19:05:27) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/22 (16:41:21) | ===> btop++ v.1.4.0
+2024/12/22 (16:41:21) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/22 (16:41:21) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/22 (16:41:52) | ===> btop++ v.1.4.0
+2024/12/22 (16:41:52) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/22 (16:41:52) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/22 (16:42:43) | ===> btop++ v.1.4.0
+2024/12/22 (16:42:43) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/22 (16:42:43) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/26 (01:26:04) | ===> btop++ v.1.4.0
+2024/12/26 (01:26:04) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/26 (01:26:04) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/26 (01:27:32) | ===> btop++ v.1.4.0
+2024/12/26 (01:27:32) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/26 (01:27:32) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/26 (18:16:18) | ===> btop++ v.1.4.0
+2024/12/26 (18:16:18) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/26 (18:16:18) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/26 (21:00:17) | ===> btop++ v.1.4.0
+2024/12/26 (21:00:17) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/26 (21:00:17) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/26 (21:06:49) | ===> btop++ v.1.4.0
+2024/12/26 (21:06:49) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/26 (21:06:49) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/27 (17:34:46) | ===> btop++ v.1.4.0
+2024/12/27 (17:34:46) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/27 (17:34:46) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/29 (19:57:58) | ===> btop++ v.1.4.0
+2024/12/29 (19:57:58) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/29 (19:57:58) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/29 (20:02:30) | ===> btop++ v.1.4.0
+2024/12/29 (20:02:30) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/29 (20:02:30) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/29 (20:05:07) | ===> btop++ v.1.4.0
+2024/12/29 (20:05:07) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/29 (20:05:07) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/29 (22:05:39) | ===> btop++ v.1.4.0
+2024/12/29 (22:05:39) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/29 (22:05:39) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/31 (15:50:24) | ===> btop++ v.1.4.0
+2024/12/31 (15:50:24) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/31 (15:50:24) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/01 (00:17:10) | ===> btop++ v.1.4.0
+2025/01/01 (00:17:10) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/01 (00:17:10) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/03 (20:09:56) | ===> btop++ v.1.4.0
+2025/01/03 (20:09:56) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/03 (20:09:56) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/09 (15:38:35) | ===> btop++ v.1.4.0
+2025/01/09 (15:38:35) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/09 (15:38:35) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/09 (15:45:16) | ===> btop++ v.1.4.0
+2025/01/09 (15:45:16) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/09 (15:45:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/13 (15:10:32) | ===> btop++ v.1.4.0
+2025/01/13 (15:10:32) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/13 (15:10:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/14 (16:38:50) | ===> btop++ v.1.4.0
+2025/01/14 (16:38:50) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/14 (16:38:50) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/14 (20:40:49) | ===> btop++ v.1.4.0
+2025/01/14 (20:40:49) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/14 (20:40:49) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/14 (20:50:11) | ===> btop++ v.1.4.0
+2025/01/14 (20:50:11) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/14 (20:50:11) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/19 (22:20:14) | ===> btop++ v.1.4.0
+2025/01/19 (22:20:14) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/19 (22:20:14) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/20 (14:47:31) | ===> btop++ v.1.4.0
+2025/01/20 (14:47:31) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/20 (14:47:31) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/20 (15:00:16) | ===> btop++ v.1.4.0
+2025/01/20 (15:00:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/21 (14:57:10) | ===> btop++ v.1.4.0
+2025/01/21 (14:57:10) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/21 (14:57:10) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/21 (16:34:47) | ===> btop++ v.1.4.0
+2025/01/21 (16:34:47) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/21 (16:34:47) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/21 (16:35:25) | ===> btop++ v.1.4.0
+2025/01/21 (16:35:25) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/21 (16:35:25) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/21 (21:17:11) | ===> btop++ v.1.4.0
+2025/01/21 (21:17:11) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/21 (21:17:11) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/21 (21:17:34) | ===> btop++ v.1.4.0
+2025/01/21 (21:17:34) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/21 (21:17:34) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/21 (23:45:39) | ===> btop++ v.1.4.0
+2025/01/21 (23:45:39) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/21 (23:45:39) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/22 (18:23:17) | ===> btop++ v.1.4.0
+2025/01/22 (18:23:17) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/22 (18:23:17) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/23 (10:52:16) | ===> btop++ v.1.4.0
+2025/01/23 (10:52:16) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/23 (10:52:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/23 (16:28:50) | ===> btop++ v.1.4.0
+2025/01/23 (16:28:50) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/23 (16:28:50) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/25 (15:02:59) | ===> btop++ v.1.4.0
+2025/01/25 (15:02:59) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/25 (15:02:59) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/25 (20:17:18) | ===> btop++ v.1.4.0
+2025/01/25 (20:17:18) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/25 (20:17:18) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/25 (21:06:26) | ===> btop++ v.1.4.0
+2025/01/25 (21:06:26) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/25 (21:06:26) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/26 (02:27:37) | ===> btop++ v.1.4.0
+2025/01/26 (02:27:37) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/26 (02:27:37) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/28 (12:01:19) | ===> btop++ v.1.4.0
+2025/01/28 (12:01:19) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/28 (12:01:19) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/28 (12:01:42) | ===> btop++ v.1.4.0
+2025/01/28 (12:01:42) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/28 (12:01:42) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/29 (21:12:45) | ===> btop++ v.1.4.0
+2025/01/29 (21:12:45) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/29 (21:12:45) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/29 (23:30:03) | ===> btop++ v.1.4.0
+2025/01/29 (23:30:03) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/29 (23:30:03) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/29 (23:30:10) | ===> btop++ v.1.4.0
+2025/01/29 (23:30:10) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/29 (23:30:10) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/30 (20:55:21) | ===> btop++ v.1.4.0
+2025/01/30 (20:55:21) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/30 (20:55:21) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/03 (21:59:58) | ===> btop++ v.1.4.0
+2025/02/03 (21:59:58) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/03 (21:59:58) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/07 (01:16:21) | ===> btop++ v.1.4.0
+2025/02/07 (01:16:21) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/07 (01:16:21) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/10 (13:44:49) | ===> btop++ v.1.4.0
+2025/02/10 (13:44:49) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/10 (13:44:49) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/13 (09:45:09) | ===> btop++ v.1.4.0
+2025/02/13 (09:45:09) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/13 (09:45:09) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/17 (13:27:07) | ===> btop++ v.1.4.0
+2025/02/17 (13:27:07) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/17 (13:27:07) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/20 (22:14:26) | ===> btop++ v.1.4.0
+2025/02/20 (22:14:26) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/20 (22:14:26) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/22 (22:46:30) | ===> btop++ v.1.4.0
+2025/02/22 (22:46:30) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/22 (22:46:30) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/26 (00:25:04) | ===> btop++ v.1.4.0
+2025/02/26 (00:25:04) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/26 (00:25:04) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/26 (12:30:11) | ===> btop++ v.1.4.0
+2025/02/26 (12:30:11) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/26 (12:30:11) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/26 (12:30:36) | ===> btop++ v.1.4.0
+2025/02/26 (12:30:36) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/26 (12:30:36) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/28 (23:41:50) | ===> btop++ v.1.4.0
+2025/02/28 (23:41:50) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/02/28 (23:41:50) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/02 (17:15:36) | ===> btop++ v.1.4.0
+2025/03/02 (17:15:36) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/02 (17:15:36) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/03 (13:44:32) | ===> btop++ v.1.4.0
+2025/03/03 (13:44:32) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/03 (13:44:32) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/03 (15:53:49) | ===> btop++ v.1.4.0
+2025/03/03 (15:53:49) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/03 (15:53:49) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/07 (18:47:13) | ===> btop++ v.1.4.0
+2025/03/07 (18:47:13) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/07 (18:47:13) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/07 (18:51:26) | ERROR: Stall in Runner thread, restarting!
+
+2025/03/10 (20:18:19) | ===> btop++ v.1.4.0
+2025/03/10 (20:18:19) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/10 (20:18:19) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/11 (18:59:48) | ===> btop++ v.1.4.0
+2025/03/11 (18:59:48) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/11 (18:59:48) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/11 (20:04:33) | ===> btop++ v.1.4.0
+2025/03/11 (20:04:33) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/11 (20:04:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/11 (20:04:45) | ===> btop++ v.1.4.0
+2025/03/11 (20:04:45) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/11 (20:04:45) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/11 (20:06:01) | ===> btop++ v.1.4.0
+2025/03/11 (20:06:01) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/11 (20:06:01) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/12 (12:01:53) | ===> btop++ v.1.4.0
+2025/03/12 (12:01:53) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/12 (12:01:53) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/12 (12:25:54) | ===> btop++ v.1.4.0
+2025/03/12 (12:25:54) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/12 (12:25:54) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/12 (22:30:42) | ===> btop++ v.1.4.0
+2025/03/12 (22:30:42) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/12 (23:32:09) | ===> btop++ v.1.4.0
+2025/03/12 (23:32:09) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/12 (23:32:09) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/13 (15:48:48) | ===> btop++ v.1.4.0
+2025/03/13 (15:48:48) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/13 (15:48:48) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/13 (15:49:40) | ===> btop++ v.1.4.0
+2025/03/13 (15:49:40) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/13 (15:49:40) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/14 (18:13:01) | ===> btop++ v.1.4.0
+2025/03/14 (18:13:01) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/14 (18:13:01) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/14 (21:08:40) | ===> btop++ v.1.4.0
+2025/03/14 (21:08:40) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/14 (21:08:40) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/15 (17:14:18) | ===> btop++ v.1.4.0
+2025/03/15 (17:14:18) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/15 (17:14:18) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/16 (22:59:48) | ===> btop++ v.1.4.0
+2025/03/16 (22:59:48) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/16 (22:59:48) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/16 (23:27:42) | ===> btop++ v.1.4.0
+2025/03/16 (23:27:42) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/16 (23:27:42) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/16 (23:34:19) | ===> btop++ v.1.4.0
+2025/03/16 (23:34:19) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/16 (23:34:19) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (00:03:45) | ===> btop++ v.1.4.0
+2025/03/18 (00:03:45) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (00:03:45) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (15:23:25) | ===> btop++ v.1.4.0
+2025/03/18 (15:23:25) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (15:23:25) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (15:27:22) | ===> btop++ v.1.4.0
+2025/03/18 (15:27:22) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (15:27:22) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (15:33:53) | ===> btop++ v.1.4.0
+2025/03/18 (15:33:53) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (15:33:53) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (15:34:09) | ===> btop++ v.1.4.0
+2025/03/18 (15:34:09) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (15:34:09) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (18:13:36) | ===> btop++ v.1.4.0
+2025/03/18 (18:13:36) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (18:13:36) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/18 (23:32:27) | ===> btop++ v.1.4.0
+2025/03/18 (23:32:27) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/18 (23:32:27) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/20 (16:29:46) | ===> btop++ v.1.4.0
+2025/03/20 (16:29:46) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/20 (16:29:46) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/21 (11:01:16) | ===> btop++ v.1.4.0
+2025/03/21 (11:01:16) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/21 (11:01:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/21 (20:47:31) | ===> btop++ v.1.4.0
+2025/03/21 (20:47:31) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/21 (20:47:31) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/21 (23:13:31) | ===> btop++ v.1.4.0
+2025/03/21 (23:13:31) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/21 (23:13:31) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/24 (12:21:13) | ===> btop++ v.1.4.0
+2025/03/24 (12:21:13) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/24 (12:21:13) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/27 (19:02:14) | ===> btop++ v.1.4.0
+2025/03/27 (19:02:14) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/27 (19:02:14) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/28 (11:06:41) | ===> btop++ v.1.4.0
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/28 (11:06:41) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:45) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:45) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:46) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:47) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:49) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:51) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:53) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:54) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:57) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:06:59) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:07:01) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:07:02) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:07:03) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:07:05) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/03/28 (11:07:07) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+
+2025/03/29 (02:52:16) | ===> btop++ v.1.4.0
+2025/03/29 (02:52:16) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/29 (02:52:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/31 (13:16:28) | ===> btop++ v.1.4.0
+2025/03/31 (13:16:28) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/03/31 (13:16:28) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (13:45:24) | ===> btop++ v.1.4.0
+2025/04/01 (13:45:24) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/01 (13:45:24) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (15:36:20) | ===> btop++ v.1.4.0
+2025/04/01 (15:36:20) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/01 (15:36:20) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (11:44:48) | ===> btop++ v.1.4.0
+2025/04/04 (11:44:48) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/04 (11:44:48) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (11:46:06) | ===> btop++ v.1.4.0
+2025/04/04 (11:46:06) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/04 (11:46:06) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (16:29:50) | ===> btop++ v.1.4.0
+2025/04/05 (16:29:50) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (16:31:20) | ===> btop++ v.1.4.0
+2025/04/05 (16:31:20) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/11 (13:18:11) | ===> btop++ v.1.4.0
+2025/04/11 (13:18:11) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/11 (13:18:11) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/16 (15:30:20) | ===> btop++ v.1.4.0
+2025/04/16 (15:30:20) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/16 (15:30:20) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/18 (11:44:47) | ===> btop++ v.1.4.0
+2025/04/18 (11:44:47) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/18 (11:44:47) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/19 (15:31:40) | ===> btop++ v.1.4.0
+2025/04/19 (15:31:40) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/19 (15:31:40) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/19 (15:31:53) | WARNING: Failed to join _runner thread on exit!
+
+2025/04/20 (17:36:36) | ===> btop++ v.1.4.0
+2025/04/20 (17:36:36) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/20 (17:36:36) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/20 (17:37:03) | ===> btop++ v.1.4.0
+2025/04/20 (17:37:03) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/20 (17:37:03) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/20 (17:37:19) | ===> btop++ v.1.4.0
+2025/04/20 (17:37:19) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/20 (17:37:19) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/21 (13:36:28) | ===> btop++ v.1.4.0
+2025/04/21 (13:36:28) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/21 (13:36:28) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/21 (13:37:07) | ===> btop++ v.1.4.0
+2025/04/21 (13:37:07) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/21 (13:37:07) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/23 (15:00:40) | ===> btop++ v.1.4.0
+2025/04/23 (15:00:40) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/23 (15:00:40) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/23 (16:06:51) | ===> btop++ v.1.4.0
+2025/04/23 (16:06:51) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/23 (16:06:51) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/27 (17:25:57) | ===> btop++ v.1.4.0
+2025/04/27 (17:25:57) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/27 (17:25:57) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/27 (17:51:14) | ===> btop++ v.1.4.0
+2025/04/27 (17:51:14) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/27 (17:51:14) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/27 (18:02:21) | ===> btop++ v.1.4.0
+2025/04/27 (18:02:21) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/04/27 (18:02:21) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/27 (18:02:23) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!

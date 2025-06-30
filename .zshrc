@@ -7,36 +7,23 @@
 
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
-source <(fzf --zsh)
-source ~/env_vars
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
-SAVEHIST=10000
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
 setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
 
-mkcdir ()
-{
-    mkdir -p -- "$1" &&
-       cd -P -- "$1"
-}
+source $HOME/.profile
 
-cdls () {
-  cd "$1" &&
-  ls
-}
-
-alias ls="ls -A --color=auto"
-alias please="sudo"
-alias tty-clock="tty-clock -C 6 -c"
-alias hx="helix"
-alias mk="musikcube"
-alias sober="flatpak run org.vinegarhq.Sober"
-alias update-river="$HOME/.config/river/init"
-alias img="kitty +kitten icat"
 
 export PATH=$PATH:~/.cargo/bin/
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -78,14 +65,79 @@ zi snippet OMZP::ruby
 zi snippet OMZP::conda-env
 zi snippet OMZP::sudo
 
-
-
-
+# Auto suggestions:
+zinit wait lucid for \
+ atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
+    zdharma-continuum/fast-syntax-highlighting \
+ blockf \
+    zsh-users/zsh-completions \
+ atload"!_zsh_autosuggest_start" \
+    zsh-users/zsh-autosuggestions
 
 zi cdclear -q # <- forget completions provided up to this moment
+
+zinit light Aloxaf/fzf-tab
+
+# fzf keybinds:
+eval "$(fzf --zsh)"
+
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git" 
+export FZF_CTRL_T_COMMAND="$FZF_DEFUALT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --typed --hidden --strip-cwd-prefix --exclude .git" 
+export EDITOR="nvim"
+
+_fzf_compgen_path() {
+   fd --hidden --exclude .git . "$1" 
+}
+# Use fd to generate the list for directory completion.
+_fzf_compgen_dir() {
+   fd --type=d --hidden --exclude .git . "$1"
+}
+
+show_file_or_dir_preview="if [ -d {} ]; then eza --tree --color=always {} | head -200; else bat -n --color=always --line-range :500 {}; fi"
+
+export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
+export FZF_ALT_C_OPTS="--preview 'eza --tree --icons --color=always {} | head -200'"
+
+# Advanced customization of fzf options via _fzf_comprun function
+# - The first argument to the function is the name of the command.
+# - You should make sure to pass the rest of the arguments to fzf.
+_fzf_comprun() {
+  local command=$1
+  shift
+
+  case "$command" in
+    cd)           fzf --preview 'eza --tree --color=always {} | head -200' "$@" ;;
+    export|unset) fzf --preview "eval 'echo \${}'"         "$@" ;;
+    ssh)          fzf --preview 'dig {}'                   "$@" ;;
+    *)            fzf --preview "$show_file_or_dir_preview" "$@" ;;
+  esac
+}
+
+# FZF Theme:
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+--color=selected-bg:#45475a \
+--multi"
+
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
 
 # Prompt
 setopt promptsubst
 zinit snippet OMZT::murilasso
 
+eval "$(oh-my-posh --config=$HOME/.config/oh-my-posh/config.toml init zsh)"
 
+
+eval "$(zoxide init --cmd cd zsh)"
+eval "$(thefuck --alias)"
+
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle 'fzf-tab:complete:cd:*' fzf-preview --preview='eza --tree --color=always $realPath'
+
+source $HOME/.aliases
+source $HOME/.private_zshrc
